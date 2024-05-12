@@ -1,0 +1,27 @@
+.gal-memo{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.gal-memos{
+    flex-basis: 23%;
+}
+
+.gal-memos img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+@media (max-width:878px){
+    .gal-memo{
+        flex-direction: column;
+    }
+
+    .gal-memos{
+        margin-top: 20px;
+    }
+}
